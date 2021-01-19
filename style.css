@@ -1,7 +1,17 @@
+/*body*/
+body{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+
 /*Mise en place de la nav*/
 nav{
     display: flex;
     justify-content: space-between;
+    padding: 30px;
+    height: 30px;
 }
 .link-nav ul{
     display: flex;
@@ -18,7 +28,7 @@ nav{
     color: #0065FC;
 }
 .logo img{
-    height: 20%;
+    height: 40px;
 }
 /* Champ de recherche*/
 .search-content{
@@ -77,8 +87,6 @@ nav{
 }
 .info {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
     align-items: center;
 }
 
