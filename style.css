@@ -17,6 +17,9 @@ nav{
     padding: 10px;
     color: #0065FC;
 }
+.logo img{
+    height: 30%;
+}
 /* Champ de recherche*/
 .search-content{
     display: flex;
