@@ -49,16 +49,36 @@ nav{
     border-radius: 50%;
     line-height: 43px;
     color:#0065FC ;
+    
+}
+.filter-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.filter-title{
+    font-weight: bold;
+    margin-right: 15px;
 }
 /*Info*/
 .info i{
-    
+    padding: 20px 0px 20px 20px;
     padding-left: 10px;
     padding-right: 10px;
     height: 30px;
     line-height: 30px;
     color:#0065FC ;
+    margin-right: 25px;
+    margin-left: none;
 }
+.info {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .content-icon-filter{
     display: flex;
     align-items: center;
@@ -70,41 +90,49 @@ nav{
     cursor: pointer;
 }
 .filter-container{
+    padding: 20px 0px 20px 20px;
+    align-items: center;
+    margin-right: 25px;
     display: flex;
     height: 30px;
     padding-right: 10px;
     padding-left: 10px;
-    
-        
+    border-left: none;   
 }
-/*Section rooms*/
 
+    
+/*Section rooms*/
+.title-rooms{
+    padding: 20px 0px 20px 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
 
 .rooms-localisation img{
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
     object-fit: cover;
-    width: 100%;
+    width: 101%;
     height: 8em;
 }
 .rooms{
     background-color: #F2F2F2;
-    
-   
+    padding: 20px 0px 20px 20px;
+    border-radius: 30px;
 }
 .rooms-side{
     margin: 16px;
     background: #ffffff;
-    border: 9px solid #ffffff;
+    border: 6px solid #ffffff;
     border-radius: 29px;
     box-shadow: 4px 4px 6px #aaa;
     width: 17.5em;
     height: 16em;
-   
-}
-.more-rooms a{
     text-decoration: none;
 }
-.rooms-localisation{
-    do
+.more-rooms {
+    text-decoration: none;
+}
+section{
+    display: block;
 }
