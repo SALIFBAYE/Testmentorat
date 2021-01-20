@@ -94,8 +94,15 @@ nav{
 .info {
     display: flex;
     align-items: center;
+    
 }
-
+.info p{
+    padding-left: 10px;
+}
+.info-logo{
+    border: 0px solid #DEEBFF;
+    border-radius: 100%;
+}
 .content-icon-filter{
     display: flex;
     align-items: center;
@@ -147,15 +154,19 @@ nav{
     width: 19.5em;
     height: 16em;
 }
-.more-rooms {
+.more-rooms a {
     text-decoration: none;
 }
+
 #rooms{
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     margin: 10px
+}
+#rooms a{
+    text-decoration: none;
 }
 .rooms-side figcaption{
     margin-left: 5px;
