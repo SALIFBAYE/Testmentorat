@@ -142,7 +142,7 @@ nav{
     background: #ffffff;
     border: 2px solid #ffffff;
     border-radius: 25px;
-    box-shadow: 4px 4px 6px #aaa;
+    box-shadow: 14px 5px 9px #aaa;
     width: 19.5em;
     height: 16em;
 }
@@ -162,5 +162,23 @@ nav{
 }
 .rooms-side figcaption{
     margin-left: 5px;
+}
+/*Populaires*/
+.popularity{
+    background-color: #F2F2F2 ;
+    border-radius: 30px;
+}
+#rooms-popularity img{
+    border-radius: 10px 0 0 10px;
+}
+.rooms-side-popularity{
+    background-color: white;
+    
+}
+.title-popularity{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-aroundk;
 }
 
