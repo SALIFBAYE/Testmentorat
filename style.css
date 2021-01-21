@@ -174,9 +174,15 @@ nav{
 #rooms-popularity img{
     border-radius: 10px 0 0 10px;
 }
-.rooms-side-popularity{
-    background-color: white;
-    
+.rooms-side-popularity {
+    display: flex;
+    background: #ffffff;
+    border: 4px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #aaa;
+    margin: 10px 20px;
+    width: 40%;
+    height: 40%;
 }
 .title-popularity{
     display: flex;
@@ -184,4 +190,6 @@ nav{
     margin: 10px;
     justify-content: space-around;
 }
-
+.rooms-side-popularity img{
+    border-radius:20px 0 0 20px ;
+}
