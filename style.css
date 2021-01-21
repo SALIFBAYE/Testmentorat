@@ -30,6 +30,9 @@ nav{
 .logo img{
     height: 30px;
 }
+.nav-bold{
+    font-weight: bold;
+}
 /* Champ de recherche*/
 .search-content{
     display: flex;
@@ -179,6 +182,6 @@ nav{
     display: flex;
     align-items: center;
     margin: 10px;
-    justify-content: space-aroundk;
+    justify-content: space-around;
 }
 
