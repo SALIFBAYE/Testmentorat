@@ -200,3 +200,8 @@ nav{
 .rooms-side-popularity a{
     text-decoration: none;
 }    
+.rooms-side-popularity .figure{
+display: flex;
+
+}
+
