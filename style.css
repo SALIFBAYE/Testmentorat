@@ -192,7 +192,7 @@ nav{
     justify-content: space-around;
 }
 .rooms-side-popularity img{
-    width: 100%;
+    width: 50%;
     height: 8em;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
