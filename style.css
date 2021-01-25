@@ -149,6 +149,11 @@ input{
 
     
 /*Section rooms*/
+/*
+main{
+    display: flex;
+    justify-content: space-around;
+}
 .title-rooms{
     padding: 20px 0px 20px 20px;
     font-weight: bold;
@@ -194,7 +199,84 @@ input{
 .rooms-side figcaption{
     margin-left: 5px;
 }
+*/
+/*ROOMS-SECTION*/
+#rooms article{
+    background-color: #F2F2F2;
+    padding: 20px 0px 20px 20px;
+    border-radius: 30px;
+    
 
+}
+.main-rooms{
+    display: flex;
+}
+.main-rooms a{
+    text-decoration: none;
+    color: black;
+}
+
+#container article{
+    width: 70%;
+    flex-wrap: wrap;
+}
+/*
+.rooms-side{
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+}
+*/
+.rooms-side{
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    transition: transform 1s;
+}
+
+.rooms-side img{
+border-top-left-radius: 25px;
+border-top-right-radius: 25px;
+height: 8em;
+width: 100%;
+}
+.rooms-side figure{
+    margin: 0;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #aaa;
+    width: 17em;
+    height: 14em;
+    }
+    h4{
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.main-rooms{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.rooms-side figcaption{
+    margin-left: 10px;
+    font-size: 0.8em;
+
+
+}
+.again a{
+    text-decoration: none;
+}
+.rooms-side p, .rooms-side h4{
+    margin: 5px;
+}
 /*Populaires*/
 .popularity{
     background-color: #F2F2F2 ;
