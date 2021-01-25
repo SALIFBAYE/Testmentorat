@@ -149,27 +149,34 @@ input{
 /*CONTAINER*/
 #container{
 display: flex;
-width: 100%;
 flex-direction: column;
 justify-content: space-between;
 padding: 0 ;
 }
 #container article{
-    width: 70%;
+    width: 71%;
     flex-wrap: wrap;
 }
 #container aside{
-    width: 30%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#container{
+    display: flex;
+    flex-direction: column;
 }
 /*ROOMS-SECTION*/
-#rooms article{
+#rooms {
     background-color: #F2F2F2;
     padding: 20px 0px 20px 20px;
     border-radius: 30px;
 }
+/*
 .main-rooms{
     display: flex;
 }
+*/
+
 .main-rooms a{
     text-decoration: none;
     color: black;
@@ -219,8 +226,6 @@ width: 100%;
 .rooms-side figcaption{
     margin-left: 10px;
     font-size: 0.8em;
-
-
 }
 .again a{
     text-decoration: none;
@@ -241,7 +246,7 @@ border-radius: 30px;
 }
 #aside img{
     border-radius: 20px 0 0 20px;
-    width: 50%;
+    width: 15%;
 }
 #aside{
     display: flex;
@@ -283,13 +288,22 @@ width: 100%;
 #main-activities img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    object-fit: cover;
     width: 300px;
-    margin: auto;
     opacity: 1;
+    object-fit: cover;
+}
+#main-activities{
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 #main-activities a{
     text-decoration: none;
+}
+#main-activities img{
+    display: flex;
+    text-align: center;
+    margin: auto;
 }
 .vieux-port img{
     height: 450px;
@@ -297,16 +311,67 @@ width: 100%;
 .parc-national-calanques img{
     height: 450px;
 }
-#main-activities{
-    display: flex;
+
+.vieux-port figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
 }
-
-
-
-
-
-
-
+.parc-national-calanques figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.iles-frioul figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.fort-pomegues figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.notre-dame-de-la-garde figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.parc-longchamp figure{
+    box-shadow: 10px 8px 8px #aaa;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.vieux-port figcaption{
+    margin-left: 5%;
+    color: black;
+}
+.fort-pomegues figcaption{
+    margin-left: 5%;
+    color: black;
+}
+.iles-frioul figcaption{
+    margin-left: 5%;
+    color: black;
+}
+.parc-national-calanques figcaption{
+    margin-left: 5%;
+    color: black;
+}
+.notre-dame-de-la-garde figcaption{
+    margin-left: 5%;
+    color: black;
+}
+.parc-longchamp figcaption{
+    margin-left: 5%;
+    color: black;
+}
 /*FOOTER*/
 #footer a{
     text-decoration: none;
