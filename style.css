@@ -279,7 +279,27 @@ border-top-right-radius: 25px;
 height: 8em;
 width: 100%;
 }
-
+/*SECTION ACTIVITIES*/
+#main-activities img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+    width: 300px;
+    margin: auto;
+    opacity: 1;
+}
+#main-activities a{
+    text-decoration: none;
+}
+.vieux-port img{
+    height: 450px;
+}
+.parc-national-calanques img{
+    height: 450px;
+}
+#main-activities{
+    display: flex;
+}
 
 
 
