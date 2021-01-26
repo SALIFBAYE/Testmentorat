@@ -216,7 +216,7 @@ width: 100%;
 }
 .content-pop img{
     border-radius: 20px 0 0 20px;
-    width: 40%;
+    width: 35%;
 }
 .content-pop a{
     text-decoration: none;
@@ -226,12 +226,11 @@ width: 100%;
     color:#0065FC ;
 }
 .content-pop figcaption{
-    margin-left: 2% ;
+    padding: 7%;
 }
 /*MAIN*/
 main{
     display: flex;
-    justify-content: space-between;
 }
 
 
