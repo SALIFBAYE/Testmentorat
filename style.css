@@ -216,7 +216,9 @@ width: 100%;
 }
 .content-pop img{
     border-radius: 20px 0 0 20px;
-    width: 35%;
+    object-fit: cover;
+    width: 41%;
+
 }
 .content-pop a{
     text-decoration: none;
