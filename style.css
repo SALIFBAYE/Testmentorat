@@ -168,14 +168,10 @@ padding: 0 ;
 /*ROOMS-SECTION*/
 #rooms {
     background-color: #F2F2F2;
-    padding: 20px 0px 20px 20px;
     border-radius: 30px;
+    padding: 20px 0px 20px 20px;
+
 }
-/*
-.main-rooms{
-    display: flex;
-}
-*/
 
 .main-rooms a{
     text-decoration: none;
@@ -288,9 +284,11 @@ width: 100%;
 #main-activities img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 300px;
+    width: 265px;
     opacity: 1;
     object-fit: cover;
+   
+    
 }
 #main-activities{
     display: flex;
@@ -305,6 +303,16 @@ width: 100%;
     text-align: center;
     margin: auto;
 }
+#activities img{
+    display: flex;     
+    justify-content: space-around; 
+    
+
+}
+#activities{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .vieux-port img{
     height: 450px;
 }
@@ -317,6 +325,7 @@ width: 100%;
     border: 1px solid transparent;
     border-radius: 25px;
     box-sizing: border-box;
+    margin: auto;
 }
 .parc-national-calanques figure{
     box-shadow: 10px 8px 8px #aaa;
@@ -349,29 +358,34 @@ width: 100%;
     box-sizing: border-box;
 }
 .vieux-port figcaption{
-    margin-left: 5%;
+    margin-left: 10%;
     color: black;
 }
 .fort-pomegues figcaption{
-    margin-left: 5%;
+    margin-left: 10%;
     color: black;
 }
 .iles-frioul figcaption{
-    margin-left: 5%;
+    margin-left: 10%;
     color: black;
+    margin-top: 15%;
 }
 .parc-national-calanques figcaption{
-    margin-left: 5%;
+    margin-left: 10%;
     color: black;
 }
 .notre-dame-de-la-garde figcaption{
-    margin-left: 5%;
+    margin-left: 10%;
     color: black;
 }
 .parc-longchamp figcaption{
-    margin-left: 5%;
+    margin-left: 10%;
     color: black;
+    margin-top: 15%;
+
 }
+.dame-longchamp{
+margin: auto;}
 /*FOOTER*/
 #footer a{
     text-decoration: none;
