@@ -1,5 +1,6 @@
 /*body*/
 
+
 body{
     margin-right: 5%;
     margin-left: 5%;
@@ -187,7 +188,6 @@ padding: 0 ;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    transition: transform 1s;
 }
 
 .rooms-side img{
@@ -209,8 +209,6 @@ width: 100%;
     display: block;
     margin-block-start: 1.33em;
     margin-block-end: 1.33em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-weight: bold;
 }
 .main-rooms{
