@@ -3,6 +3,7 @@ body{
     margin-right: 5%;
     margin-left: 5%;
 }
+
 img{
     width: 50px;
     height: auto;
@@ -33,6 +34,7 @@ nav{
 
 .logo img{
     height: 30px;
+
 }
 .nav-bold a{
     color: #0065fc;
@@ -246,28 +248,36 @@ width: 100%;
     border-top-right-radius: 25px;
     width: 265px;
     opacity: 1;
-    object-fit: cover;
     
 }
-
+#main-activities .dame-longchamp{
+    margin-right: 15%;
+}
+#main-activities .vieux-port{
+    margin-left: 15%;
+}
 #main-activities a{
     text-decoration: none;
 }
 
 #main-activities{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-left: 5%;
     margin-right: 5%;
-    width: 100%;
+    width: 95%;
     
     
+}
+#main-activities img{
+    object-fit: cover;
 }
 .vieux-port img{
-    height: 450px;
+    height: 430px;
 }
+
 .parc-national-calanques img{
-    height: 450px;
+    height: 430px;
 }
 
 .vieux-port figure{
@@ -276,9 +286,7 @@ width: 100%;
     border-radius: 25px;
     box-sizing: border-box;
 }
-.vieux-port{
-    margin-left: none;
-}
+
 .parc-national-calanques figure{
     box-shadow: 10px 8px 8px #aaa;
     border: 1px solid transparent;
@@ -338,6 +346,7 @@ width: 100%;
     margin-left: 5%;
 
 }
+
 
 /*FOOTER*/
 #footer a{
