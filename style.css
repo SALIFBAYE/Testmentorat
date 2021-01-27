@@ -241,39 +241,26 @@ width: 100%;
 
 }
 /*SECTION ACTIVITIES*/
-#main-activities img{
+#activities img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     width: 265px;
     opacity: 1;
     object-fit: cover;
-   
     
 }
-#main-activities{
-    display: flex;
-    justify-content: center;
-    width: 90%;
-}
+
 #main-activities a{
     text-decoration: none;
 }
-#main-activities img{
-    display: flex;
-    text-align: center;
-    margin: auto;
-}
-#activities img{
-    display: flex;     
-    justify-content: space-around; 
-    margin-right: 5%;
-    
 
-}
-#activities{
+#main-activities{
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    
     
 }
 .vieux-port img{
@@ -288,6 +275,9 @@ width: 100%;
     border: 1px solid transparent;
     border-radius: 25px;
     box-sizing: border-box;
+}
+.vieux-port{
+    margin-left: none;
 }
 .parc-national-calanques figure{
     box-shadow: 10px 8px 8px #aaa;
@@ -320,30 +310,32 @@ width: 100%;
     box-sizing: border-box;
 }
 .vieux-port figcaption{
-    margin-left: 10%;
     color: black;
+    margin-left: 5%;
 }
 .fort-pomegues figcaption{
-    margin-left: 10%;
     color: black;
+    margin-left: 5%;
+
 }
 .iles-frioul figcaption{
-    margin-left: 10%;
     color: black;
-    margin-top: 15%;
+    margin-left: 5%;
+
 }
 .parc-national-calanques figcaption{
-    margin-left: 10%;
     color: black;
+    margin-left: 5%;
+
 }
 .notre-dame-de-la-garde figcaption{
-    margin-left: 10%;
     color: black;
+    margin-left: 5%;
+
 }
 .parc-longchamp figcaption{
-    margin-left: 10%;
     color: black;
-    margin-top: 15%;
+    margin-left: 5%;
 
 }
 
