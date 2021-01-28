@@ -266,12 +266,19 @@ width: 100%;
     -webkit-filter: blur(3px);
 	filter: blur(3px);
 	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
     
 }
 #activities img:hover {
-	-webkit-filter: blur(0);
-	filter: blur(0);
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 #main-activities .dame-longchamp{
