@@ -137,7 +137,9 @@ input{
 .button-filter p{
     padding: 10px;
 }
-
+.button-filter:hover{
+    background-color:#DEEBFF ;
+}
 
 .content-icon-filter{
     height: 43px;
@@ -197,6 +199,10 @@ width: 100%;
     font-weight: bold;
     
 }
+.cards :hover{
+    transform : scale(1.05);
+}
+
 /*ASIDE POPULAIRE*/
 .title-aside{
     display: flex;
