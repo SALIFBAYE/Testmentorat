@@ -1,3 +1,64 @@
+/*ANIMATIONS*/
+.button-filter:hover{
+    background-color: #0065FC ;
+}
+.cards :hover{
+    transform : scale(1.05);
+}
+.content-pop img{
+    transition: transform .5s;
+}
+.content-pop  :hover{
+    transform : scale(1.05) rotate(10deg);
+}
+#activities img{
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+#activities img:hover {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+#activities img{
+    
+    -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    
+}
+#activities img:hover {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+/*RESPONSIVE-DESIGN*/
+/*media */
+@media screen and (max-width:700px){
+    .button-search-world{
+        display: none;
+        
+    }
+    .button-smartphone{
+        display: block;
+    }
+}
 /*body*/
 body{
     margin-right: 5%;
@@ -87,16 +148,7 @@ input{
     border: inherit;
     border: 1px solid #F2F2F2;
 }
-/*media */
-@media screen and (max-width:700px){
-    .button-search-world{
-        display: none;
-        
-    }
-    .button-smartphone{
-        display: block;
-    }
-}
+
 
 
 /*Info*/
@@ -140,9 +192,8 @@ input{
 .button-filter p{
     padding: 10px;
 }
-.button-filter:hover{
-    background-color: #0065FC ;
-}
+
+
 
 .content-icon-filter{
     height: 43px;
@@ -202,9 +253,7 @@ width: 100%;
     font-weight: bold;
     
 }
-.cards :hover{
-    transform : scale(1.05);
-}
+
 
 /*ASIDE POPULAIRE*/
 .title-aside{
@@ -239,12 +288,7 @@ width: 100%;
     text-decoration: none;
     color: black;
 }
-.content-pop img{
-    transition: transform .5s;
-}
-.content-pop  :hover{
-    transform : scale(1.05) rotate(10deg);
-}
+
 .content-pop span{
     color:#0065FC ;
 }
@@ -263,22 +307,7 @@ width: 100%;
     border-top-right-radius: 25px;
     width: 265px;
     object-fit: cover;
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    
-}
-#activities img:hover {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
+   
 }
 
 #main-activities .dame-longchamp{
@@ -296,15 +325,11 @@ width: 100%;
     justify-content: space-around;
     margin-left: 5%;
     margin-right: 5%;
-    width: 95%;
-    
-    
+    width: 95%;   
 }
-
 .vieux-port img{
     height: 430px;
 }
-
 .parc-national-calanques img{
     height: 430px;
 }
