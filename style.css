@@ -141,7 +141,7 @@ input{
     padding: 10px;
 }
 .button-filter:hover{
-    transform : scale(1.2);
+    background-color: #0065FC ;
 }
 
 .content-icon-filter{
@@ -239,8 +239,11 @@ width: 100%;
     text-decoration: none;
     color: black;
 }
-.content-pop :hover{
-    transform : scale(1.05);
+.content-pop img{
+    transition: transform .5s;
+}
+.content-pop  :hover{
+    transform : scale(1.05) rotate(10deg);
 }
 .content-pop span{
     color:#0065FC ;
@@ -261,6 +264,7 @@ width: 100%;
     width: 265px;
     opacity: 1;
     object-fit: cover;
+    
 
     
 }
