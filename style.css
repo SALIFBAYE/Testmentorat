@@ -1,4 +1,8 @@
 /*ANIMATIONS*/
+.link-nav a:hover{
+    border-top: 3px solid  #0065FC ;
+    color: #0065FC ;
+}
 .button-filter:hover{
     background-color: #0065FC ;
 }
@@ -11,58 +15,49 @@
 .content-pop  :hover{
     transform : scale(1.05) rotate(10deg);
 }
-#activities img{
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
+#main-activities :hover{
+
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
     
 }
-#activities img:hover {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
-#activities img{
-    
-    -webkit-filter: blur(3px);
-	filter: blur(3px);
-	-webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-    -webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-    
-}
-#activities img:hover {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%;
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-}
+
 /*RESPONSIVE-DESIGN*/
 /*media */
-@media screen and (max-width:700px){
+@media screen and (max-width:768px){
     .button-search-world{
-        display: none;
-        
+        display: none;  
     }
     .button-smartphone{
         display: block;
     }
 }
+@media screen and (max-width: 768px){
+
+
+.link-nav{
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+}
+
 /*body*/
 body{
-    margin-right: 5%;
-    margin-left: 5%;
+    font-family: Raleway, sans-serif;
+    font-size: 1rem;
+    margin: 0;;
 }
 
 img{
@@ -94,7 +89,7 @@ nav{
 
 
 .logo {
-    height: 30px;
+    height: 60px;
     object-fit: cover;
     opacity: 1;
 
@@ -104,10 +99,7 @@ nav{
     color: #0065fc;
     font-weight: bold;
 }
-.link-nav a:hover{
-    border-top: 3px solid #0065FC ;
-    color: #0065FC ;
-}
+
 .link-nav .nav-bold a{
     color: #0065FC ;
 }
@@ -130,6 +122,8 @@ nav{
     border-radius: 0 10px 10px 0;
     border: none;
     
+    
+    
 }
 .button-smartphone{
     height: 30px;
@@ -137,7 +131,6 @@ nav{
     border-radius: 0 10px 10px 0;
     border: none;
     color: white;
-    display: none;
 }
 .button-search-world a{
     color: white;
@@ -254,7 +247,6 @@ width: 100%;
     
 }
 
-
 /*ASIDE POPULAIRE*/
 .title-aside{
     display: flex;
@@ -310,12 +302,6 @@ width: 100%;
    
 }
 
-#main-activities .dame-longchamp{
-    margin-right: 15%;
-}
-#main-activities .vieux-port{
-    margin-left: 15%;
-}
 #main-activities a{
     text-decoration: none;
 }
@@ -323,9 +309,8 @@ width: 100%;
 #main-activities{
     display: flex;
     justify-content: space-around;
-    margin-left: 5%;
-    margin-right: 5%;
-    width: 95%;   
+    width: 95%; 
+    margin: auto; 
 }
 .vieux-port img{
     height: 430px;
