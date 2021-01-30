@@ -15,12 +15,55 @@
 .content-pop  :hover{
     transform : scale(1.05) rotate(10deg);
 }
-#main-activities :hover{
+.vieux-port img{
 
     opacity: 1;
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     
+}
+.vieux-port:hover img {
+	opacity: .5;
+}
+.fort-pomegues img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.fort-pomegues :hover {
+    opacity: .5;
+}
+.iles-frioul img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.iles-frioul:hover{
+    opacity: .5;
+}
+.parc-national-calanques img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.parc-national-calanques :hover{
+    opacity: .5;
+}
+.notre-dame-de-la-garde img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.notre-dame-de-la-garde{
+    opacity: .5;
+}
+.parc-longchamp img{
+    opacity: 1;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.parc-longchamp :hover{
+    opacity: .5;
 }
 
 /*RESPONSIVE-DESIGN*/
