@@ -54,7 +54,7 @@
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
-.notre-dame-de-la-garde{
+.notre-dame-de-la-garde :hover{
     opacity: .5;
 }
 .parc-longchamp img{
@@ -78,11 +78,9 @@
 }
 @media screen and (max-width: 768px){
 
-
-.link-nav{
-    display: flex;
-    justify-content: flex-end;
-    flex-flow: row wrap;
+.link-nav .principal-nav{
+    padding: 0;
+    border-bottom: 2px solid #F2F2F2;
     width: 100%;
 }
 .nav{
@@ -92,10 +90,10 @@
     width: 100%;
 }
 
-
+}
+@media screen and (max-width: 768px){
 
 }
-
 /*body*/
 body{
     font-family: Raleway, sans-serif;
@@ -113,6 +111,7 @@ nav{
     justify-content: space-between;
     padding: 30px;
     height: 30px;
+    margin-bottom: auto;
 }
 
 .link-nav ul{
@@ -128,7 +127,7 @@ nav{
     text-decoration: none;
     padding: 10px;
     color: black;
-}
+padding: 20px;}
 
 
 .logo {
