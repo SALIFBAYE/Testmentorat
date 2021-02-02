@@ -67,38 +67,46 @@
 }
 
 /*RESPONSIVE-DESIGN*/
-/*media */
-@media screen and (max-width:768px){
+/*                  media Queries                       */
+@media screen and (max-width:780px){
+    body{
+        width: auto;
+        padding-top: 15px;
+        overflow-x: hidden;
+        
+    }
     .button-search-world{
-        display: none;  
+        display: none;
     }
-    .button-smartphone{
-        display: block;
+    .button-smartphone
+    {
+        background: #0065FC;
+        border: 10px solid #0065FC;
+        border-radius: 10px;
+        display: flex;
     }
-}
-@media screen and (max-width: 768px){
-
-.link-nav .principal-nav{
-    padding: 0;
-    border-bottom: 2px solid #F2F2F2;
-    width: 100%;
-}
-.nav{
+    h1{
+        margin: 0;
+        width: 50%;
+        padding-left: 15px;
+    }
+    .only-filter{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    
+    
 }
 
-}
-@media screen and (max-width: 768px){
-
-}
 /*body*/
+
 body{
+    display: block;
+    justify-content: space-around;
     font-family: Raleway, sans-serif;
     font-size: 1rem;
-    margin: 0;;
+    margin: 5%;
 }
 
 img{
@@ -111,7 +119,6 @@ nav{
     justify-content: space-between;
     padding: 30px;
     height: 30px;
-    margin-bottom: auto;
 }
 
 .link-nav ul{
@@ -127,7 +134,7 @@ nav{
     text-decoration: none;
     padding: 10px;
     color: black;
-padding: 20px;}
+padding: 28px;}
 
 
 .logo {
@@ -162,10 +169,7 @@ padding: 20px;}
     color: white;
     background-color: #0065FC;
     border-radius: 0 10px 10px 0;
-    border: none;
-    
-    
-    
+    border: none;    
 }
 .button-smartphone{
     height: 30px;
@@ -226,6 +230,10 @@ input{
 }
 .button-filter p{
     padding: 10px;
+}
+.only-filter{
+    display: flex;
+    align-items: center;
 }
 
 
@@ -332,10 +340,11 @@ width: 100%;
 /*MAIN*/
 #container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 /*SECTION ACTIVITIES*/
+
 #activities img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -351,12 +360,13 @@ width: 100%;
 #main-activities{
     display: flex;
     justify-content: space-around;
-    width: 95%; 
-    margin: auto; 
+    width: 100%; 
+    
 }
 .vieux-port img{
     height: 430px;
 }
+
 .parc-national-calanques img{
     height: 430px;
 }
@@ -439,8 +449,12 @@ width: 100%;
 #footer{
     background-color:#F2F2F2;
     padding: 20px 0px 20px 20px;
-    border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    padding-right: 10%;
+    padding-right: 10px;
+}
+
+
+.footer{
+    margin-right: 1px;
 }
