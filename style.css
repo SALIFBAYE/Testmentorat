@@ -1,4 +1,127 @@
 /*ANIMATIONS*/
+/body {
+	font-family: Releway, serif;
+	width: 100%;
+    margin: auto;
+}
+.container-logo-inscription{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 90px;
+}
+
+.nav-element1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 30px;
+}
+
+.nav-element, .nav-element2{
+    position: relative;
+    bottom: 56px; 
+}
+
+.nav-element a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 30px;
+
+}
+.nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+    border-top: 5px solid #0065FC;
+    padding-top: 30px;
+   
+}
+
+.nav-element2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding: 30px;
+   
+}
+
+.container-link-reverse{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 200px;
+    
+}
+@media screen and (max-width: 700px){
+    .container-link-reverse{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: 35px;
+        width: 100%;
+
+    }
+
+    .nav-element1 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+    }
+
+    nav{
+        margin: 0;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    .nav-element, .nav-element2{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+        position: inherit;
+        bottom: inherit;
+    }
+
+ 
+
+    .nav-element:hover{
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+
+    }
+
+    .nav-element2:hover{
+        border-bottom: 1px solid blue; 
+        padding-bottom: 50px;
+
+    } 
+    .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+        border-top: inherit;
+        padding-top: inherit;
+       
+    }   
+}
 .link-nav a:hover{
     border-top: 3px solid  #0065FC ;
     color: #0065FC ;
@@ -69,12 +192,38 @@
 /*RESPONSIVE-DESIGN*/
 /*                  media Queries                       */
 @media screen and (max-width:780px){
-    body{
-        width: auto;
-        padding-top: 15px;
-        overflow-x: hidden;
-        
+    .container-link-reverse a{
+        text-decoration: none;
+        color: black;
+        position: initial;
+        bottom: inherit;
+
     }
+    .container-link-reverse{
+        display: flex;
+        justify-content: space-between; 
+        width: 100%; 
+        margin-top: 30px;
+    }
+    .nav-element a{
+        padding: inherit;
+    }
+    .nav-element1 a{
+        padding: inherit;
+    }
+    .nav-element2{
+        padding: inherit;
+    }
+    .nav-element, .nav-element2{
+        width: 50%;
+        text-align: center;
+        padding-bottom: 50px;
+        position: inherit;
+        bottom: inherit;
+    }
+
+
+
     .button-search-world{
         display: none;
     }
@@ -95,31 +244,31 @@
     flex-wrap: wrap;
     justify-content: space-between;
     }
-    
-    
+    #pop-contain{
+    order: -1;
+    padding: 0;
+    border-radius: 0;
+    margin: 0;
+    width: 100%
+    }
+    #container{
+        max-width: 100% ; 
+    }
+
 }
 
 /*body*/
 
-body{
-    display: block;
-    justify-content: space-around;
-    font-family: Raleway, sans-serif;
-    font-size: 1rem;
-    margin: 5%;
-}
 
-img{
-    width: 50px;
-    height: auto;
-}
-/*Mise en place de la nav*/
+
+
+/*Mise en place de la navcontainer-logo-inscription
 nav{
     display: flex;
     justify-content: space-between;
     padding: 30px;
     height: 30px;
-}
+}*/
 
 .link-nav ul{
     display: flex;
