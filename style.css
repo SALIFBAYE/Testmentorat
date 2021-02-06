@@ -54,84 +54,22 @@
     padding-right: 200px;
     
 }
-@media screen and (max-width: 700px){
-    .container-link-reverse{
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        margin-top: 35px;
-        width: 100%;
-
-    }
-
-    .nav-element1 a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding-left: inherit;
-        padding:inherit;
-        
-    }
-    .nav-element a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding-left: inherit;
-        padding:inherit;
-        
-    }
-    .nav-element2 a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding-left: inherit;
-        padding:inherit;
-    }
-
-    nav{
-        margin: 0;
-        border-bottom: 1px solid grey;
-        
-    }
-
-    .nav-element, .nav-element2{
-        width: 50%;
-        text-align: center;
-        padding-bottom: 50px;
-        position: inherit;
-        bottom: inherit;
-    }
-
- 
-
-    .nav-element:hover{
-        border-bottom: 1px solid blue; 
-        padding-bottom: 50px;
-
-    }
-
-    .nav-element2:hover{
-        border-bottom: 1px solid blue; 
-        padding-bottom: 50px;
-
-    } 
-    .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
-
-        border-top: inherit;
-        padding-top: inherit;
-       
-    }   
+.container-link-reverse a:hover{
+color: #0065FC;
+font-weight: bold;
 }
-.link-nav a:hover{
-    border-top: 3px solid  #0065FC ;
-    color: #0065FC ;
+.inscription-link a{
+    font-weight: bold;
+    color:#0065FC ;
 }
+.content-icon-filter  :hover{
+    background-color:#0065FC ;
+}
+
 .button-filter:hover{
     background-color: #0065FC ;
 }
-.cards :hover{
-    transform : scale(1.05);
-}
+
 .content-pop img{
     transition: transform .5s;
 }
@@ -186,9 +124,7 @@
 .parc-longchamp :hover{
     opacity: .5;
 }
-
-/*RESPONSIVE-DESIGN*/
-/*                  media Queries                       */
+       
 @media screen and (max-width:780px){
     .container-link-reverse a{
         text-decoration: none;
@@ -213,6 +149,7 @@
     }
     .nav-element, .nav-element2{
         width: 50%;
+       margin: 30%;
         text-align: center;
         padding-bottom: 50px;
         position: inherit;
@@ -238,6 +175,89 @@
     flex-wrap: wrap;
     justify-content: space-between;
     }
+    .filter-container p{
+        font-weight: bold;
+
+    }
+}   
+/*RESPONSIVE-DESIGN*/
+   /*              media Queries                    */
+@media screen and (max-width: 700px){
+    .container-link-reverse{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        margin-top: 35px;
+        width: 100%;
+
+    }
+
+    .nav-element1 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+        
+    }
+    .nav-element2 a{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        padding-left: inherit;
+        padding:inherit;
+    }
+
+    nav{
+        width: auto;
+        margin: 0;
+        border-bottom: 1px solid grey;
+        
+    }
+
+    .nav-element, .nav-element2{
+        width: 50%;
+        margin: 30%;
+        text-align: center;
+        padding-bottom: 50px;
+        position: inherit;
+        bottom: inherit;
+    }
+
+ 
+
+    .nav-element:hover{
+        border-bottom: 1px solid#0065FC; 
+        padding-bottom: 50px;
+
+    }
+
+    .nav-element2:hover{
+        border-bottom: 1px solid #0065FC; 
+        padding-bottom: 50px;
+       
+
+    }
+    .inscription-link  a{
+        color: #0065FC;
+        font-weight: bold;
+    }
+    .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
+
+        border-top: inherit;
+        padding-top: inherit;
+       
+    }   
+}
+
     #pop-contain{
     order: -1;
     padding: 0;
@@ -253,55 +273,15 @@
 
 /*body*/
 
-/*Mise en place de la navcontainer-logo-inscription}
-nav{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    height: 30px;
-*/
+/*                           nav                       */
 
-.link-nav ul{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    
-}
-.link-nav ul li {
-    list-style-type: none;
-}
-.link-nav ul li a{
-    text-decoration: none;
-    padding: 10px;
-    color: black;
-padding: 28px;}
-
-
-.logo {
-    height: 60px;
-    object-fit: cover;
-    opacity: 1;
-
-
-}
-.nav-bold a{
-    color: #0065fc;
-    font-weight: bold;
-}
-
-.link-nav .nav-bold a{
-    color: #0065FC ;
-}
 /* Champ de recherche*/
-.search-content{
-    display: flex;
-}
 .search-icon{
-    background-color: #F2F2F2;
+    background-color: #DEEBFF;
     padding-right: 10px;
     padding-left: 10px;
     height: 30px;
-    border-radius: 10px 0  0 10px;
+    border-radius:10px 0 0 10px ;
     line-height: 30px;
 }
 .button-search-world{
@@ -320,15 +300,19 @@ padding: 28px;}
 }
 .button-search-world a{
     color: white;
+
     text-decoration: none;
     
 }   
 input{
     border: inherit;
     border: 1px solid #F2F2F2;
+    height: 30px;
 }
-
-
+.search-content{
+    display: flex;
+    align-items: baseline;
+}
 
 /*Info*/
 .info i{
@@ -375,9 +359,6 @@ input{
     display: flex;
     align-items: center;
 }
-
-
-
 .content-icon-filter{
     height: 43px;
     width: 43px;
@@ -386,7 +367,9 @@ input{
     border-radius: 50%;
     text-align: center;
     line-height: 43px;
-
+}
+.button-filter p{
+    font-weight: bold;
 }
 /*SECTION HEBERGEMENTS*/
 main{
@@ -398,6 +381,7 @@ main{
     background-color:#F2F2F2 ;
     border-radius: 30px;
     padding: 20px 0px 20px 20px;
+    margin: auto;
 }
 .cards figure{
     margin: 0;
@@ -406,14 +390,15 @@ main{
     border-radius: 25px;
     box-shadow: 4px 4px 3px #aaa;
     width: 20.5em;
-    height: 15.5em;
+    height: 17.5em;
 
 }
 .cards img{
 border-top-left-radius: 25px;
 border-top-right-radius: 25px;
-height: 8em;
+height: 10em;
 width: 100%;
+object-fit: cover;
 }
 .cards a{
     text-decoration: none;
@@ -431,7 +416,8 @@ width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 5px 5px;
+    margin-right: 1%;
+    margin-left: none;
 }
 .cards figcaption{
     margin-left: 5%;
@@ -442,7 +428,9 @@ width: 100%;
     font-weight: bold;
     
 }
-
+.cannebiere{
+    margin-left: none;
+}
 /*ASIDE POPULAIRE*/
 .title-aside{
     display: flex;
@@ -469,12 +457,14 @@ width: 100%;
 .content-pop img{
     border-radius: 20px 0 0 20px;
     object-fit: cover;
-    width: 40%;
+    width: 45%;
+    height: auto;
 
 }
 .content-pop a{
     text-decoration: none;
     color: black;
+    margin: 3%;
 }
 
 .content-pop span{
@@ -583,7 +573,6 @@ width: 100%;
     margin-left: 5%;
 
 }
-
 
 /*FOOTER*/
 #footer a{
