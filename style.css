@@ -377,10 +377,16 @@ font-weight: bold;
    #main-activities{
        display: flex;
        flex-direction: column;
+       justify-content: space-between;
        width: 100%;
        justify-content: center;
+       
    }
-   
+   .contain-footer{
+       display: flex;
+       flex-direction: column;
+       margin-bottom: 20%;
+   }
 
 
 }
@@ -689,13 +695,13 @@ object-fit: cover;
 }
 
 /*FOOTER*/
-#footer a{
+.contain-footer a{
     text-decoration: none;
     color: black;
     display: flex;
 }
 
-#footer{
+.contain-footer{
     background-color:#F2F2F2;
     padding: 20px 0px 20px 20px;
     display: flex;
@@ -703,6 +709,6 @@ object-fit: cover;
     padding-right: 10px;
 }
 
-.footer{
+.content-footer{
     margin-right: 1px;
 }
