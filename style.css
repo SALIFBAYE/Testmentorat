@@ -263,7 +263,7 @@ font-weight: bold;
  */
 @media screen and (max-width:768px){
     .button-smartphone{
-        display: flex;
+        display: block;
     }
     .button-search-world{
         display: none;
@@ -418,7 +418,7 @@ font-weight: bold;
     border-radius: 0 10px 10px 0;
     border: none;
     color: white;
-    display: none;
+    
 }
 .button-search-world a{
     color: white;
