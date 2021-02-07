@@ -365,6 +365,7 @@ font-weight: bold;
         
     }
     .pop-contain{
+        
         border-radius: 0;
     }
     aside figure{
@@ -377,16 +378,41 @@ font-weight: bold;
    #main-activities{
        display: flex;
        flex-direction: column;
-       justify-content: space-between;
        width: 100%;
-       justify-content: center;
+       height: auto;
        
    }
    .contain-footer{
        display: flex;
        flex-direction: column;
-       margin-bottom: 20%;
+       padding-left: 20px;
+       
    }
+   .content-footer{
+       padding: 30px;
+   }
+
+   #hebergements-contain{
+       background-color:white;
+   }
+   #main-activities img{
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+   }
+   #activities{
+       padding-left: 15px;
+   } 
+   .vieux-port{
+    padding-bottom: 10px;
+    width: 100%;
+   } 
+   #main-activities figure{
+       margin: 10px;
+
+   }
+
+
 
 
 }
@@ -556,7 +582,7 @@ object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 90%;
+    width:100%;
 
 }
 .pop-contain{
@@ -604,7 +630,7 @@ object-fit: cover;
 #activities img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 265px;
+    width: 321px;
     object-fit: cover;
    
 }
@@ -706,9 +732,7 @@ object-fit: cover;
     padding: 20px 0px 20px 20px;
     display: flex;
     justify-content: space-between;
-    padding-right: 10px;
+    padding: 30px;
+    margin: auto;
 }
 
-.content-footer{
-    margin-right: 1px;
-}
