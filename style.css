@@ -2,15 +2,17 @@
 /body {
 	font-family: Releway, serif;
 	width: 100%;
-    margin: auto;
 }
 .container-logo-inscription{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 12px;
+    padding-right: 12px;
     height: 90px;
+}
+nav{
+    margin: -5px;
 }
 
 .nav-element1 a{
@@ -51,7 +53,8 @@
     display: flex;
     align-items: center;
     justify-content:flex-end;
-    padding-right: 200px;
+    padding-right: 135px;
+    margin-left: 1px;
     
 }
 .container-link-reverse a:hover{
@@ -81,7 +84,7 @@ font-weight: bold;
     transition: .3s ease-in-out;
     
 }
-.vieux-port:hover img {
+.vieux-port:hover  {
 	opacity: .5;
 }
 .fort-pomegues img{
@@ -124,142 +127,7 @@ font-weight: bold;
 .parc-longchamp :hover{
     opacity: .5;
 }
- /*      
-@media screen and (max-width:780px){
-    .container-link-reverse a{
-        text-decoration: none;
-        color: black;
-        position: initial;
-        bottom: inherit;
-    }
-    .container-link-reverse{
-        display: flex;
-        justify-content: space-between; 
-        width: 100%; 
-        margin-top: 30px;
-    }
-    .nav-element a{
-        padding: inherit;
-    }
-    .nav-element1 a{
-        padding: inherit;
-    }
-    .nav-element2{
-        padding: inherit;
-    }
-    .nav-element, .nav-element2{
-        width: 50%;
-       margin: 30%;
-        text-align: center;
-        padding-bottom: 50px;
-        position: inherit;
-        bottom: inherit;
-    }
-    .button-search-world{
-        display: none;
-    }
-    .button-smartphone
-    {
-        background: #0065FC;
-        border: 10px solid #0065FC;
-        border-radius: 10px;
-        display: flex;
-    }
-    h1{
-        margin: 0;
-        width: 50%;
-        padding-left: 15px;
-    }
-    .only-filter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    }
-    .filter-container p{
-        font-weight: bold;
 
-    }
-}   
-/*RESPONSIVE-DESIGN*/
-   /*              media Queries                    
-@media screen and (max-width: 768px){
-    .container-link-reverse{
-        display: flex;
-        align-items: center;
-        justify-content:space-between;
-        margin-top: 35px;
-        width: 100%;
-    }
-    .nav-element1 a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding-left: inherit;
-        padding:inherit;
-        
-    }
-    .nav-element a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding-left: inherit;
-        padding:inherit;
-        
-    }
-    .nav-element2 a{
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-        padding-left: inherit;
-        padding:inherit;
-    }
-
-    nav{
-        width: auto;
-        margin: 0;
-        border-bottom: 1px solid grey;
-        
-    }
-
-    .nav-element, .nav-element2{
-        width: 50%;
-        margin: 30%;
-        text-align: center;
-        padding-bottom: 50px;
-        position: inherit;
-        bottom: inherit;
-    }
-
-    .nav-element:hover{
-        border-bottom: 1px solid#0065FC; 
-        padding-bottom: 50px;
-
-    }
-
-    .nav-element2:hover{
-        border-bottom: 1px solid #0065FC; 
-        padding-bottom: 50px;
-       
-
-    }
-    .inscription-link  a{
-        color: #0065FC;
-        font-weight: bold;
-    }
-    .nav-element a:hover, .nav-element1 a:hover, .nav-element2 a:hover{
-
-        border-top: inherit;
-        padding-top: inherit;
-       
-    }
-    .container-logo-inscription{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        margin: 0%;
-    }
-    
-}
  */
 @media screen and (max-width:768px){
     .button-smartphone{
@@ -408,20 +276,29 @@ font-weight: bold;
     width: 100%;
    } 
    #main-activities figure{
-       margin: 10px;
+       margin: 20px;
 
    }
-
-
-
+   #activities img{
+    object-fit: cover;
+    width: 100%;
+    height: 607px;
+   }
 
 }
 
-/*body*/
+                              /*body*/
 
 /*                           nav                       */
 
 /* Champ de recherche*/
+body{
+    margin: 30px;
+}
+h2{
+    margin: 10px;
+}
+
 .search-icon{
     background-color: #F2F2F2;
     padding-right: 10px;
@@ -462,19 +339,18 @@ input{
     align-items: baseline;
 }
 
-/*Info*/
+/*                          Info                           */
 .info i{
     
     padding-left: 10px;
     height: 30px;
     line-height: 30px;
     color:#0065FC ;
-    margin-right: 10px;
-    margin-left: none;
 }
 .info {
     display: flex;
     align-items: center;
+    margin-left: 20px;
       
 }
 .info p{
@@ -484,7 +360,7 @@ input{
     border: 0px solid #DEEBFF;
     border-radius: 100%;
 }
-/*                 Filtres                     */
+/*                     Filtres                               */
 .filter-container{
     display: flex;
     margin-top: 30px;
@@ -517,25 +393,34 @@ input{
 .button-filter p{
     font-weight: bold;
 }
-/*SECTION HEBERGEMENTS*/
+
+/*                           SECTION HEBERGEMENTS             */
 main{
     display: flex;
     justify-content: space-around;
+    margin: 10px;
 }
 
 #hebergements-contain{
     background-color:#F2F2F2 ;
     border-radius: 30px;
-    padding: 20px 0px 20px 20px;
-    margin: auto;
+    margin-right: 1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 75%;
+
 }
+#hebergements-contain h2{
+    margin-left: 0.5px;
+}
+
 .cards figure{
     margin: 0;
     background: #ffffff;
     border: 1px solid #ffffff;
     border-radius: 25px;
     box-shadow: 4px 4px 3px #aaa;
-    width: 20.5em;
+    width: 17.5em;
     height: 17.5em;
 
 }
@@ -557,13 +442,14 @@ object-fit: cover;
 
 .cards{
     margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 2px;
 }
 #hebergements-contain article{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-right: 1%;
-    margin-left: none;
+    margin-left: 2px;
 }
 .cards figcaption{
     margin-left: 5%;
@@ -574,22 +460,19 @@ object-fit: cover;
     font-weight: bold;
     
 }
-.cannebiere{
-    margin-left: none;
-}
-/*ASIDE POPULAIRE*/
+
+/*                            ASIDE POPULAIRE                */
 .title-aside{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width:100%;
+    justify-content: space-around;
 
 }
 .pop-contain{
     background-color:#F2F2F2 ;
     border-radius: 30px;
     padding: 20px 0px 20px 20px;
-    margin-left: 2%;
+    margin-left: 1px;
 }
 .pop-contain figure{
     background-color:#ffffff;
@@ -619,22 +502,25 @@ object-fit: cover;
 .content-pop figcaption{
     padding: 6%;
 }
-/*MAIN*/
+/*                          MAIN                           */
 #container{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 10%;
 
 }
-/*SECTION ACTIVITIES*/
+/*                    SECTION ACTIVITIES                    */
 
 #activities img{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-    width: 321px;
+    width: 335px;
     object-fit: cover;
-   
+    opacity: 1;
 }
-
+#activities{
+    margin-bottom: 10px;
+}
 #main-activities a{
     text-decoration: none;
 }
@@ -642,15 +528,15 @@ object-fit: cover;
 #main-activities{
     display: flex;
     justify-content: space-around;
-    width: 100%; 
     
 }
 .vieux-port img{
-    height: 430px;
+    height: 530px;
 }
 
 .parc-national-calanques img{
-    height: 430px;
+    height: 530px;
+
 }
 
 .vieux-port figure{
@@ -692,35 +578,29 @@ object-fit: cover;
 }
 .vieux-port figcaption{
     color: black;
-    margin-left: 5%;
 }
 .fort-pomegues figcaption{
     color: black;
-    margin-left: 5%;
 
 }
 .iles-frioul figcaption{
     color: black;
-    margin-left: 5%;
 
 }
 .parc-national-calanques figcaption{
     color: black;
-    margin-left: 5%;
 
 }
 .notre-dame-de-la-garde figcaption{
     color: black;
-    margin-left: 5%;
 
 }
 .parc-longchamp figcaption{
     color: black;
-    margin-left: 5%;
 
 }
 
-/*FOOTER*/
+/*                            FOOTER                       */
 .contain-footer a{
     text-decoration: none;
     color: black;
@@ -731,8 +611,6 @@ object-fit: cover;
     background-color:#F2F2F2;
     padding: 20px 0px 20px 20px;
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    margin: auto;
+    justify-content: space-around;
+    margin: 10px;
 }
-
