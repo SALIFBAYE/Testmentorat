@@ -578,25 +578,34 @@ object-fit: cover;
 }
 .vieux-port figcaption{
     color: black;
+    margin: 5%;
 }
 .fort-pomegues figcaption{
     color: black;
+    margin: 5%;
 
 }
 .iles-frioul figcaption{
     color: black;
+    margin: 5%;
+
 
 }
 .parc-national-calanques figcaption{
     color: black;
+    margin: 5%;
 
 }
 .notre-dame-de-la-garde figcaption{
     color: black;
+    margin: 5%;
+
 
 }
 .parc-longchamp figcaption{
     color: black;
+    margin: 5%;
+
 
 }
 
@@ -611,6 +620,8 @@ object-fit: cover;
     background-color:#F2F2F2;
     padding: 20px 0px 20px 20px;
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: space-between;
+}
+.content-footer{
+    margin-right: 20%;
 }
