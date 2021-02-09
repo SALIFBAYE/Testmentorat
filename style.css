@@ -413,7 +413,7 @@ main{
 
 }
 #hebergements-contain h2{
-    margin-left: 0.5px;
+    margin-left: 2px;
 }
 
 .cards figure{
@@ -473,7 +473,8 @@ object-fit: cover;
 .title-aside{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin: 1em;
 
 }
 .pop-contain{
