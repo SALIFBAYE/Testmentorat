@@ -1,4 +1,5 @@
 /*ANIMATIONS*/
+/*ANIMATIONS*/
 /body {
 	font-family: Releway, serif;
 	width: 100%;
@@ -129,7 +130,7 @@ font-weight: bold;
 }
 
  */
-@media screen and (max-width:768px){
+@media screen and (max-width:700px){
     .button-smartphone{
         display: block;
     }
@@ -284,6 +285,12 @@ font-weight: bold;
     width: 100%;
     height: 607px;
    }
+   
+   .contain-footer{
+       display: flex;
+       flex-direction: column;
+
+   }
 
 }
 
@@ -296,7 +303,7 @@ body{
     margin: 30px;
 }
 
-}
+
 h2{
     margin: 10px;
 }
@@ -357,6 +364,7 @@ input{
 }
 .info p{
     padding-left: 2px;
+    padding: 15px;
 }
 .info-logo{
     border: 0px solid #DEEBFF;
