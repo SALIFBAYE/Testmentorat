@@ -261,9 +261,7 @@ font-weight: bold;
        padding: 30px;
    }
 
-   #hebergements-contain{
-       background-color:white;
-   }
+   
    #main-activities img{
     object-fit: cover;
     width: 100%;
@@ -299,14 +297,6 @@ font-weight: bold;
 /*                           nav                       */
 
 /* Champ de recherche*/
-body{
-    margin: 30px;
-}
-
-
-h2{
-    margin: 10px;
-}
 
 .search-icon{
     background-color: #F2F2F2;
@@ -322,7 +312,7 @@ h2{
     background-color: #0065FC;
     border-radius: 0 10px 10px 0;
     border: none;
-       
+    padding: 19px;
 }
 .button-smartphone{
     height: 30px;
@@ -408,25 +398,23 @@ input{
 main{
     display: flex;
     justify-content: space-around;
-    margin: 10px;
 }
-article {
-    padding-left: 1px;
-}
+
 #hebergements-contain{
-    background-color:#F2F2F2 ;
+    background-color:#F2F2F2;
     border-radius: 30px;
-    margin-right: 1em;
-    padding-left: 2em;
-    padding-right: 2%;
-    width: 75%;
+    margin-right: 30px;
+    padding-left: 30px;
+    /*
+    padding-right: 2%;*/
+    width: 80%;
 
 }
-
+/*
 #hebergements-contain h2{
     margin-bottom: 1px;
 }
-
+*/
 .cards figure{
     margin: 0;
     background: #ffffff;
@@ -460,15 +448,18 @@ object-fit: cover;
 
 }
 .cards{
-    margin-bottom: 2em;
+    margin-bottom: 2px;
     margin-top: 2em;
     margin-left: 1em;
+    width: 30%;
 }
 #hebergements-contain article{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin-left: 2px;
+    justify-content: center;
+    align-items: center;
+    /*
+    margin-left: 2px;*/
 }
 .cards figcaption{
     margin-left: 5%;
@@ -486,7 +477,6 @@ object-fit: cover;
     align-items: center;
     justify-content: space-between;
     margin-right: 1em;
-    padding-top: 0,1em;
 
 }
 .pop-contain{
@@ -644,7 +634,9 @@ object-fit: cover;
     padding: 20px 0px 20px 20px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 .content-footer{
     margin-right: 20%;
+
 }
