@@ -402,18 +402,21 @@ main{
     justify-content: space-around;
     margin: 10px;
 }
-
+article {
+    padding-left: 1px;
+}
 #hebergements-contain{
     background-color:#F2F2F2 ;
     border-radius: 30px;
     margin-right: 1em;
-    padding-left: 2%;
+    padding-left: 2em;
     padding-right: 2%;
     width: 75%;
 
 }
+
 #hebergements-contain h2{
-    margin-left: 2px;
+    margin-bottom: 1px;
 }
 
 .cards figure{
@@ -474,7 +477,8 @@ object-fit: cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1em;
+    margin-right: 1em;
+    padding-top: 0,1em;
 
 }
 .pop-contain{
