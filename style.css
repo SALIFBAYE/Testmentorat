@@ -295,6 +295,8 @@ font-weight: bold;
 body{
     margin: 30px;
 }
+
+}
 h2{
     margin: 10px;
 }
@@ -436,10 +438,16 @@ object-fit: cover;
     color: black;
     
 }
-.cards span{
-    color:#0065FC ;
+.star-blue{
+    color: #0065FC;
 }
+.star-grey{
+    color: #F2F2F2;
+}
+.content-pop .star-grey{
+    color: #F2F2F2;
 
+}
 .cards{
     margin-bottom: 2em;
     margin-top: 2em;
@@ -614,6 +622,8 @@ object-fit: cover;
     text-decoration: none;
     color: black;
     display: flex;
+    margin: 2px;
+
 }
 
 .contain-footer{
