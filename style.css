@@ -464,7 +464,7 @@ object-fit: cover;
 
 }
 .more-class-button{
-    padding-top: 5%;
+    padding:20px 0 18px 20px;
 }
 #hebergements-contain h2{
     padding:20px 0px 18px 40px;
