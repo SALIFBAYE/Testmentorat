@@ -467,7 +467,7 @@ object-fit: cover;
     padding-top: 5%;
 }
 #hebergements-contain h2{
-    padding:20px 0px 20px 20px;
+    padding:20px 0px 18px 40px;
 
 }
 article{
@@ -540,7 +540,7 @@ article{
     margin-top: 3em;
 }
 #activities h2{
-    padding: 1px 0 20px 54px;
+    padding: 20px 0 18px 40px;
 }
 #main-activities a{
     text-decoration: none;
