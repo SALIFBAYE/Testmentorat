@@ -1,5 +1,4 @@
 /*ANIMATIONS*/
-/*ANIMATIONS*/
 /body {
 	font-family: Releway, serif;
 	width: 100%;
@@ -12,9 +11,7 @@
     padding-right: 12px;
     height: 90px;
 }
-nav{
-    margin: -5px;
-}
+
 
 .nav-element1 a{
     text-decoration: none;
