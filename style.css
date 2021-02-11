@@ -1,5 +1,5 @@
 /*ANIMATIONS*/
-/body {
+body {
 	font-family: Releway, serif;
 	width: 100%;
 }
@@ -126,8 +126,7 @@ font-weight: bold;
     opacity: .5;
 }
 
- */
-@media screen and (max-width:700px){
+/*@media screen and (max-width:700px){
     .button-smartphone{
         display: block;
     }
@@ -289,11 +288,9 @@ font-weight: bold;
 
 }
 
-                              /*body*/
 
 /*                           nav                       */
 
-/* Champ de recherche*/
 
 .search-icon{
     background-color: #F2F2F2;
