@@ -398,6 +398,8 @@ main{
 #hebergements-contain{
     background-color:#F2F2F2;
     border-radius: 30px;
+    margin: auto;
+    width: 65%;
 
 }
 
@@ -408,7 +410,7 @@ main{
     border-radius: 25px;
     box-shadow: 4px 4px 3px #aaa;
     width: 17.5em;
-    height: 17.5em;
+    height: 18.5em;
 
 }
 .cards img{
@@ -434,11 +436,10 @@ object-fit: cover;
 
 }
 .cards{
-    border-radius: 25px;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
 }
 #hebergements-contain article{
     display: flex;
@@ -449,7 +450,8 @@ object-fit: cover;
     margin-left: 2px;*/
 }
 .cards figcaption{
-    margin: 20px;
+    margin-left: 15px;
+    padding-right: 15px;
 }
 .more-class-button a{
     text-decoration:none;
@@ -463,7 +465,7 @@ object-fit: cover;
     padding:20px 0 18px 20px;
 }
 #hebergements-contain h2{
-    padding:20px 0px 18px 40px;
+    padding:20px 0px 10px 40px;
 
 }
 article{
@@ -472,6 +474,7 @@ article{
     align-items: center;
     flex-wrap: wrap;
     margin: 10px;
+    
 }
 
 
@@ -481,13 +484,16 @@ article{
     align-items: center;
     justify-content: space-between;
     margin-right: 30px;
+    padding: 20px 0 10px 15px;
+    
 
 }
 .pop-contain{
     background-color:#F2F2F2 ;
     border-radius: 30px;
     padding: 20px 0px 20px 20px;
-    margin-left: 1px;
+    margin-left:    30px;
+    font-size: 1rem;
 }
 .pop-contain figure{
     background-color:#ffffff;
