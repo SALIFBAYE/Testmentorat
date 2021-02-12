@@ -335,18 +335,16 @@ input{
 
 /*                          Info                           */
 .info i{
-    
     padding-left: 27px;
     height: 30px;
     line-height: 30px;
     color:#0065FC ;
+    
 }
-.info {
-    display: flex;
-    align-items: center;
-    margin-left: 20px;
-      
+ .cercle i{
+    color:#F2F2F2;
 }
+
 .info p{
     padding-left: 2px;
     padding: 15px;
@@ -354,6 +352,11 @@ input{
 .info-logo{
     border: 0px solid #DEEBFF;
     border-radius: 100%;
+}
+.info{
+display: flex;
+flex-direction: row-reverse;
+margin-left: 2px;
 }
 /*                     Filtres                               */
 .filter-container{
